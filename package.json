@@ -1,0 +1,27 @@
+{
+  "name": "csp-patch",
+  "version": "0.1.0",
+  "description": "Simple csproj-file patcher",
+  "main": "csp-patch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kato-im/kato-csproj-patcher"
+  },
+  "author": "Andrej Gaevskij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kato-im/kato-csproj-patcher/issues"
+  },
+  "homepage": "https://github.com/kato-im/kato-csproj-patcher",
+  "dependencies": {
+    "argparse": "^0.1.15",
+    "xml2json": "^0.4.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "csproj-patch": "csp-patch.js"
+  }
+}
